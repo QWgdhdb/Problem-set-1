@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class problemset1b
+{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int C = scanner.nextInt();
+        double F = C * 1.8 + 32;
+        System.out.println(F);
+
+        int weight = scanner.nextInt();
+        int height = scanner.nextInt();
+        double BMI = weight / height;
+        System.out.println(BMI);
+
+        int i = scanner.nextInt();
+        int i1 = scanner.nextInt();
+        int Days = i % i1;
+        System.out.println(Days);
+
+        int Quantity = scanner.nextInt();
+        int Price = scanner.nextInt();
+        int taxRate = scanner.nextInt();
+        double totalPrice = Quantity * Price + (0.01*taxRate + 1);
+        System.out.println(totalPrice);
+
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+        int num = 100 * a + 10 * b + c;
+        int sum = a + b + c;
+
+
+
+
+
+
+    }
+}
