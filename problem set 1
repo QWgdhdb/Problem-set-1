@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class problemset1
+{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("What is your favourite course? ");
+        String s = scanner.nextLine();
+        System.out.print("What is your favourite show?");
+        String s1 = scanner. nextLine();
+
+        System.out.print("How many hours do you spend studying each day? ");
+        int i = scanner.nextInt();
+        System.out.print("How many hours do you spend watching shows each day? ");
+        int i1 = scanner.nextInt();
+
+        System.out.println("Summary:");
+        System.out.println("Your favourite course is " + s + ".");
+        System.out.println("Your favourite show is" + s1 + ".");
+        System.out.println("You spend " + i + "hours studying each day.");
+        System.out.println("You spend " + i1 + "watching shows each day.");
+        System.out.println("In total, you spend " + (i + i1) +" hours studying and watching shows each day.");
+
+    }
+}
